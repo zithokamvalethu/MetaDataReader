@@ -15,7 +15,7 @@ function App() {
       name: file.name,
       type: file.type,
       size: file.size,
-      blob: file.blob,
+      blob: file.type,
       
     });
     console.log(file);
@@ -25,13 +25,15 @@ function App() {
       <div id="container">
         <label>Attach File</label>
         <input id="file" type="file" multiple onChange={handleFileInput} />
-        <p>{markedFile.name} </p>
         <br />
-        <p>{markedFile.type} </p>
+        <label>File name
+        </label><br/><p>{markedFile.name} </p>
         <br />
-        <p>{markedFile.size} </p>
+        File Type <p>{markedFile.type} </p>
         <br />
-        <p>{markedFile.blob} </p>
+        File Size:<p>{markedFile.size} </p>
+        <br />
+        Blob <p>{markedFile.blob} </p>
       </div>
     </form>
   );
