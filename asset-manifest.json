@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MetaDataReader/static/css/main.2369595e.css",
+    "main.js": "/MetaDataReader/static/js/main.99a58d07.js",
+    "static/js/787.75186d86.chunk.js": "/MetaDataReader/static/js/787.75186d86.chunk.js",
+    "index.html": "/MetaDataReader/index.html",
+    "main.2369595e.css.map": "/MetaDataReader/static/css/main.2369595e.css.map",
+    "main.99a58d07.js.map": "/MetaDataReader/static/js/main.99a58d07.js.map",
+    "787.75186d86.chunk.js.map": "/MetaDataReader/static/js/787.75186d86.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2369595e.css",
+    "static/js/main.99a58d07.js"
+  ]
+}
