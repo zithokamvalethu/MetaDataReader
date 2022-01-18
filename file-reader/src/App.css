@@ -1,0 +1,13 @@
+*{
+  margin: 3px;
+  padding: 2rem;
+  background-color: cornsilk;
+}
+
+input {
+  padding: 10px;
+  margin:10px 0;
+    padding:10px;
+  border: 1px solid black;
+  box-shadow:0 0 15px 4px gray;
+}
