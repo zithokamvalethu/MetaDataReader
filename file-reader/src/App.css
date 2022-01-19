@@ -1,32 +1,36 @@
 *{
-  margin: 3px;
+  margin:6px;
   padding: 4px; 
   background-color: cornsilk;
+  justify-content: center;
 }
-/* 
-input {
-  
-  margin: 1rem;
-  padding: 10px;
-  margin:10px 0;
-    padding:10px;
-  border: 1px solid black;
-  box-shadow:0 0 15px 4px gray;
-} */
+
 
 input { border: 1px solid #CCA383; 
-  width: 400px; background: #FFE8EF;
-   padding: 3px;
-  } input legend 
-   {
-      background: #CCA383;
-       padding: 6px; 
-       font-weight: bold; }
-label 
-{ color: #B4886B;
-   font-weight: bold; 
-   display: block; 
-   width: 150px;
-    float: left; 
+width: 400px;
+background: #FFE8EF;
+padding: 3px;
   }
-     label:after { content: ": " }
+
+input legend {
+background: #CCA383;
+padding: 6px; 
+font-weight: bold;
+}
+
+label { 
+color: #B4886B;
+font-weight: bold; 
+display: block; 
+width: 150px;
+float: left; 
+}
+
+
+label:after {
+  content: ": "
+ }
+ p{
+ color: #B4886B;
+
+ }
